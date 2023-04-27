@@ -42,6 +42,8 @@ def get_models(username : str, types) -> list[Model]:
             model.get('description'), 
             model.get('type'),
             model.get('nsfw'),
+            model.get('stats'),
+            model.get('creator')
             )
 
         result.append(m)
