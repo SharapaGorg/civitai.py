@@ -1,0 +1,1 @@
+API_URL = 'https://civitai.com/api/v1/'
